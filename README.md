@@ -7,7 +7,6 @@ https://git-lfs.github.com/
 
 I will redo the project as r.nycBikeData2 but will add the big files (in terms of size) to .gitignore
 Using:
-find “.1. Data” -size +10M >search.txt
-diff search.txt .gitignore >diff.txt 
-
-and then manually updating .gitignore based on diff.txt
+1. find “.1. Data” -size +10M >search.txt
+2. diff search.txt .gitignore >diff.txt 
+3. and then manually updating .gitignore based on diff.txt
